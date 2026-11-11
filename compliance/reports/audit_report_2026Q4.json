@@ -1,0 +1,102 @@
+{
+  "audit_cycle": "2026-Q4",
+  "summary": {
+    "total_assets": 10,
+    "approved": 4,
+    "attribution_required": 2,
+    "restricted": 3,
+    "unknown_license": 1
+  },
+  "findings": [
+    {
+      "asset_key": "MOD-0001",
+      "hub_repo": "google-bert/bert-base-uncased",
+      "asset_type": "model",
+      "license": "apache-2.0",
+      "decision": "approved",
+      "issue_action": "none",
+      "issue_title": null
+    },
+    {
+      "asset_key": "MOD-0002",
+      "hub_repo": "openai-community/gpt2",
+      "asset_type": "model",
+      "license": "mit",
+      "decision": "approved",
+      "issue_action": "none",
+      "issue_title": null
+    },
+    {
+      "asset_key": "MOD-0003",
+      "hub_repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "asset_type": "model",
+      "license": "apache-2.0",
+      "decision": "approved",
+      "issue_action": "none",
+      "issue_title": null
+    },
+    {
+      "asset_key": "MOD-0004",
+      "hub_repo": "meta-llama/Llama-3.1-8B",
+      "asset_type": "model",
+      "license": "llama3.1",
+      "decision": "restricted",
+      "issue_action": "created",
+      "issue_title": "[License Review] meta-llama/Llama-3.1-8B"
+    },
+    {
+      "asset_key": "MOD-0005",
+      "hub_repo": "bigcode/starcoder2-3b",
+      "asset_type": "model",
+      "license": "bigcode-openrail-m",
+      "decision": "restricted",
+      "issue_action": "created",
+      "issue_title": "[License Review] bigcode/starcoder2-3b"
+    },
+    {
+      "asset_key": "DAT-0001",
+      "hub_repo": "HuggingFaceH4/ultrachat_200k",
+      "asset_type": "dataset",
+      "license": "mit",
+      "decision": "approved",
+      "issue_action": "none",
+      "issue_title": null
+    },
+    {
+      "asset_key": "DAT-0002",
+      "hub_repo": "rajpurkar/squad",
+      "asset_type": "dataset",
+      "license": "cc-by-sa-4.0",
+      "decision": "attribution_required",
+      "issue_action": "created",
+      "issue_title": "[License Review] rajpurkar/squad"
+    },
+    {
+      "asset_key": "DAT-0003",
+      "hub_repo": "allenai/ai2_arc",
+      "asset_type": "dataset",
+      "license": "cc-by-sa-4.0",
+      "decision": "attribution_required",
+      "issue_action": "created",
+      "issue_title": "[License Review] allenai/ai2_arc"
+    },
+    {
+      "asset_key": "DAT-0004",
+      "hub_repo": "tatsu-lab/alpaca",
+      "asset_type": "dataset",
+      "license": "cc-by-nc-4.0",
+      "decision": "restricted",
+      "issue_action": "created",
+      "issue_title": "[License Review] tatsu-lab/alpaca"
+    },
+    {
+      "asset_key": "DAT-0005",
+      "hub_repo": "stanfordnlp/imdb",
+      "asset_type": "dataset",
+      "license": "other",
+      "decision": "unknown_license",
+      "issue_action": "created",
+      "issue_title": "[License Review] stanfordnlp/imdb"
+    }
+  ]
+}
